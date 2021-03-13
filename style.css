@@ -1,0 +1,341 @@
+body {
+    background: #F5F7F9;
+font-family: Content-font, Roboto, sans-serif;
+}
+
+.sidenav .closebtn{
+  font-weight: normal;
+
+  padding: 1px 1px 1px 1px;
+  text-decoration: none;
+  font-size: 0px;
+  color: white;
+font-family: system-ui;
+  display: block;
+  transition: 0.3s;
+}
+
+/*==========================================================
+			     PC				
+============================================================*/
+
+.barside a {
+font-weight: normal;
+  padding: 4px 4px 4px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #0059FF;
+font-family: system-ui;
+  display: block;
+  transition: 0.3s;
+
+
+}
+
+.barside a:hover {
+font-weight: normal;
+font-family: system-ui;
+  color: #ff2a00;
+
+}
+
+
+.navmenu {
+    width: 0%;
+    height: 0%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.navmenu1 {
+    width: 100%;
+    height: 50%;
+    background:transparent;
+  position: absolute;
+  top: 15px;
+  left: 0;
+
+}
+
+.barside {
+height:92%;
+width:21%;
+    background: #EAEBED;
+position:fixed;
+top:8.1%;
+left:0px;
+border-right: 2px solid #C7CCD0;
+
+}
+
+.headr{
+height:8%;
+width:21%;
+    background: #F5F7F9;
+position:fixed;
+top:0px;
+left:0px;
+border-bottom: 2px solid #C7CCD0;
+border-right: 2px solid #C7CCD0;
+
+}
+
+.headr .aze{
+font-weight: bold;
+font-size: 25px;
+font-family: 'Kenia', cursive;
+/*font-family: 'Rubik', sans-serif;*/
+position:fixed;
+top:2%;
+left:1%;
+}
+
+header .open1 .b1 {
+height:14px;
+width:18px;
+    background: hidden;
+position:fixed;
+top:22px;
+left:13px;
+}
+
+
+/*==========================================================
+			     MOBILE				
+============================================================*/
+@media (min-width:10px) and (max-width: 319px){
+body{
+background:black;
+}
+
+
+.barside {
+height:0%;
+width:0%;
+    background: hidden;
+position:fixed;
+top:0%;
+left:0px;
+border-right: 0px solid hidden;
+
+}
+
+header .aze{
+font-weight: bold;
+font-size: 0px;
+font-family: 'Kenia', cursive;
+/*font-family: 'Rubik', sans-serif;*/
+position:fixed;
+top:0%;
+left:0%;
+}
+.headr {
+height:0%;
+width:0%;
+background:transparent;
+border-bottom: 2px solid transparent;
+border-right: 2px solid transparent;
+}
+
+.headr .aze{
+font-weight: bold;
+font-size: 0px;
+font-family: 'Kenia', cursive;
+/*font-family: 'Rubik', sans-serif;*/
+position:fixed;
+top:0%;
+left:0%;
+}
+
+}
+
+
+@media (min-width:320px) and (max-width: 900px){
+.headr .aze{
+font-weight: bold;
+font-size: 0px;
+font-family: 'Kenia', cursive;
+/*font-family: 'Rubik', sans-serif;*/
+position:fixed;
+top:0%;
+left:0%;
+}
+
+.navmenu1 {
+    width: 0%;
+    height: 0%;
+  position: absolute;
+  top: 1000px;
+  left: 0px;
+}
+
+header .aze{
+font-weight: bold;
+font-size: 25px;
+font-family: 'Kenia', cursive;
+/*font-family: 'Rubik', sans-serif;*/
+position:fixed;
+top:2%;
+left:11%;
+}
+.headr {
+height:0%;
+width:0%;
+background:transparent;
+border-bottom: 2px solid transparent;
+border-right: 2px solid transparent;
+}
+
+.barside {
+height:0%;
+width:0%;
+    background: hidden;
+position:fixed;
+top:0%;
+left:0px;
+border-right: 0px solid hidden;
+
+}
+
+header{
+height:8%;
+width:100%;
+    background: #F5F7F9;
+position:fixed;
+top:0px;
+left:0px;
+border-bottom: 1px solid #d4dadf;
+    box-shadow: 0 3px 8px 0 rgb(116 129 141 / 10%);
+}
+
+header .open1 .b1 {
+height:14px;
+width:18px;
+    background: hidden;
+position:fixed;
+top:22px;
+left:13px;
+}
+
+header .open1 .b2 {
+height:2px;
+width:15px;
+    background: #333333;
+position:fixed;
+top:24px;
+left:15px;
+}
+
+
+header .open1 .b3 {
+height:2px;
+width:15px;
+    background: #333333;
+position:fixed;
+top:28px;
+left:15px;
+}
+
+
+header .open1 .b4 {
+height:2px;
+width:15px;
+    background: #333333;
+position:fixed;
+top:32px;
+left:15px;
+}
+
+
+/*==========================================================
+			     NAVBAR				
+============================================================*/
+
+
+.sidenav2 {
+
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+    background: #DFDFDF;
+  overflow-x: hidden;
+  transition: 0s;
+  /*-webkit-box-shadow: 10px 0 10px rgba(0,0,0,.3);
+  box-shadow: 90px 0 90px rgba(0,0,0,.3);
+  box-shadow: 90px 0 90px rgba(0,0,0,.4);
+box-shadow: 1px 0px 5px black;*/
+border-right: 1px solid black;
+}
+
+
+.sidenav .nheader{
+  width: 100%;
+ height: 7.9%;
+    background: #F5F7F9;
+  position: absolute;
+  top: 0;
+  left: 0;
+/*border-bottom: 1px solid black;
+    box-shadow: 0 3px 8px 0 rgb(116 129 141 / 50%);
+*/
+box-shadow: 1px 0px 5px black;
+
+}
+
+header .open1 .b1 {
+height:14px;
+width:18px;
+    background: hidden;
+position:fixed;
+top:22px;
+left:13px;
+}
+
+.navmenu {
+    width: 100%;
+    height: 50%;
+    background:transparent;
+  position: absolute;
+  top: 60px;
+  left: 0;
+
+}
+
+
+.sidenav a {
+font-weight: normal;
+  padding: 4px 4px 4px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #0059FF;
+font-family: system-ui;
+  display: block;
+  transition: 0.3s;
+
+
+}
+
+.sidenav a:hover {
+font-weight: normal;
+font-family: system-ui;
+  color: #ff2a00;
+
+}
+
+.sidenav .closebtn {
+  color:red;
+  position: absolute;
+  top: -5px;
+  right: 10px;
+  font-size: 35px;
+  margin-left: 0px;
+
+}
+
+
+}
